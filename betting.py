@@ -27,7 +27,6 @@ def show_betting():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 22px;">
-        <p>
         Each year, as the Eurovision Song Contest draws near, fans across Europe - and beyond - start placing their bets. Eurovision has become more than just a musical competition;
         it's a spectacle of culture, performance and passionate predictions. Betting companies have capitalized on this excitement, offering odds on potential winners, finalists,
         and even who might come in last. While some companies consistently cover the event, others dip in and out, and not all ofer bets on every country or every year.
@@ -38,20 +37,17 @@ def show_betting():
 # Intro table
 
     st.markdown(
-        """
-        <div style="text-align: justify; font-size: 22px;">
-        <p> In this section, we’ll take a closer look at how the betting landscape has evolved over the years. Specifically, we’ll explore:</p>
-
-<ul>
-    <li>Which countries placed in the top 3 each year</li>
-    <li>How various betting companies positioned their odds for those years</li>
-    <li>How closely those predictions aligned with the actual results</li>
-</ul>
-
-<p>Let’s explore whether the bookies saw it coming—or if Eurovision did what it does best: deliver the unexpected.
-        </p>
-        </div>""", unsafe_allow_html=True
-    )
+    """
+    <div style="text-align: justify; font-size: 22px;">
+        In this section, we’ll take a closer look at how the betting landscape has evolved over the years. 
+        Specifically, we’ll explore:</p>
+            1) Which countries placed in the top 3 each year?</p>
+            2) How did various betting companies position their odds for those years?</p>
+            3) How closely did those predictions align with the actual results?</p>
+        Let’s explore whether the bookies saw it coming—or if Eurovision did what it does best: deliver the unexpected.</p>
+    </div>
+    """, unsafe_allow_html=True
+)
 
 # INSERT BETTING TABLE WITH ODDS
 
@@ -78,7 +74,7 @@ def show_betting():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 22px;">
-        <p> To dive deeper, we've used <strong>power regression models</strong> to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
+        To dive deeper, we've used <strong>power regression models</strong> to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
         </p>
         </div>""", unsafe_allow_html=True
     )

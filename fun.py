@@ -33,6 +33,7 @@ def show_fun():
         """
         <div style="text-align: justify; font-size: 22px;">
         What's Eurovision without some weird trivia? Here are some of our favorite odd, strange, or just funny findings.
+        </p>
         </div>""", unsafe_allow_html=True
     )
 
