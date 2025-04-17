@@ -30,7 +30,7 @@ def show_relationships():
         """
         <div style="text-align: justify; font-size: 22px;">
         But what about just good, old fashioned politics? 
-        It turns out, in Eurovision, some competitors start with an advantage just because of where they’re from. <p>
+        It turns out, in Eurovision, some competitors start with an advantage just because of where they’re from. </p>
         Using each year’s votes, we wanted to see if we could find a pattern between which countries vote for which other countries. 
         After all, if some countries are just more likely to give their votes to others, 
         then that could be an important factor in who wins. 
