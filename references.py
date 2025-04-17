@@ -54,7 +54,17 @@ def show_references():
     st.link_button(url='https://en.wikipedia.org/wiki/List_of_LGBTQ_participants_in_the_Eurovision_Song_Contest', label = 'Page Link')
 
     st.markdown(
-        "<h2 style='font-size: 22px;'>This app was made using Streamlit, Tableau, Python, Pandas, & nltk. </h2>",
+        "<h2 style='font-size: 22px;'>This app was made using: <p><p>" 
+        "**AWS** 🎾: For cloud storage.<p>"
+        "**dbt** 🪄: For data transformation and analysis.<p>" 
+        "**matplotlib** 🗺️: For word cloud visualizations.<p>" 
+        "**nltk** 🧮: For word cloud visualizations.<p>"
+        "**Pandas** 🐼: For data processing.<p>"
+        "**Python** 🐍: For the backend and for data manipulation.<p>"
+        "**Streamlit** 🌐: For the interactive app interface.<p>"
+        "**Tableau** 📈: For interactive data visualizations.<p>"
+        "**wordcloud** 🌩️: For word cloud visualizations."
+        "</h2>",
         unsafe_allow_html=True
     )
     st.markdown(
