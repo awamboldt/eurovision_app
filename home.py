@@ -33,18 +33,17 @@ def show_home():
         """
         <h2 style="text-align: center; font-size: 26px;">Introduction</h2>
         <div style="text-align: justify; font-size: 22px;">
-        <p>
        The Eurovision Song Contest is an annual competition organized by the European Broadcast Union among its members.
          Started in 1956, the contest features original songs that are performed by six or less people and broadcast live.
          Voters in each competing country can then award points to their favorite entries (excluding their own),
          though the voting method has changed over the years. But, what makes for a good Eurovision song?    
-         <p>
+         </p>
          Well, that’s the question that these three nerds are going to try to answer.
          For this analysis, we used data on the competitors and country votes from 1956-2023,
          song-specific data from 2009-2023, betting organizations’ data from 2016-2023,
          and some country participation and contestant demographic data from Wikipedia.
          Full citations on data sources can be found in References.
-         <p>
+         </p>
          To complete this project, song, vote, betting, and 
          contestant data from referenced sources and 
          data collected through Wikipedia web scraping 
