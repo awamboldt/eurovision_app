@@ -29,7 +29,6 @@ def show_background():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 22px;">
-        <p>
         Over time, the competitors in Eurovision have looked very different. 
         Below, you can find visualizations of the first and most recent years that different countries have competed in Eurovision, 
         along with a link to their entry for that year.
