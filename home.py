@@ -44,7 +44,19 @@ def show_home():
          song-specific data from 2009-2023, betting organizations’ data from 2016-2023,
          and some country participation and contestant demographic data from Wikipedia.
          Full citations on data sources can be found in References.
-          </p>
+         <p>
+         To complete this project, song, vote, betting, and 
+         contestant data from referenced sources and 
+         data collected through Wikipedia web scraping 
+         were extracted and cleaned 
+         (e.g., to standardize performer and song names). 
+         These data were then combined, as needed, 
+         and uploaded to an AWS server and dbt for data 
+         transformations into key metrics and collaborative analysis. 
+         Visualizations were made using Tableau as well as 
+         Matplotlib, nltk, and wordcloud, 
+         and the app is powered by Streamlit.
+        </p>
         </div>""", unsafe_allow_html=True
     )
 
