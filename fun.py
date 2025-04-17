@@ -27,14 +27,11 @@ def show_fun():
         <h1 style="text-align: center; font-size: 30px;">
         Fun Facts
         </h1>
-        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
-        </p>
         """, unsafe_allow_html=True
     )
     st.markdown(
         """
         <div style="text-align: justify; font-size: 22px;">
-        <p>
         What's Eurovision without some weird trivia? Here are some of our favorite odd, strange, or just funny findings.
         </div>""", unsafe_allow_html=True
     )
