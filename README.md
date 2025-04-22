@@ -96,7 +96,7 @@ There are also folders for html files and data .csv files:
 
 ## ✔️ **Online**
 
-**Our App is also available [here](https://eurovision.streamlit.app/)**
+**Our App is also available [here](https://eurovision.streamlit.app/).**
 
 ---
 
