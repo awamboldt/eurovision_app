@@ -269,3 +269,32 @@ def show_fun():
 
     st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
 
+# when did my country last win? 
+    st.markdown(
+        """
+        <h1 style="text-align: center; font-size: 26px;">
+        But When did MY Country Last Win?
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
+        </p>
+        """, unsafe_allow_html=True
+    )
+ # text about gender trends across subregions
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 22px;">
+        And because it's a competition, we know you want to check on your darling. Here you can see when a country last won (if it did).
+        </div>""", unsafe_allow_html=True
+    )
+
+# the line graph Here
+
+    path_to_html = "./htmls/last_won_map_html.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
+
+
+
