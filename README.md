@@ -94,6 +94,12 @@ There are also folders for html files and data .csv files:
 
 ---
 
+## ✔️ **Online**
+
+**Our App is also available [here](https://eurovision.streamlit.app/)**
+
+---
+
 ## 🛩️ **Exploring the App**
 
 - **Home** 🏠: Learn about the Eurovision Song Contest and this app.
