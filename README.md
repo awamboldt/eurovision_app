@@ -113,6 +113,8 @@ There are also folders for html files and data .csv files:
 - Data transformed and key metrics built using dbt and SQL.
 - Data visualizations made using Tableau as well as Matplotlib, nltk, and wordcloud.
 
+![image info](./data/pipeline_image.png)
+
 ---
 
 ## ✍🏾✍🏻 **Authors**
