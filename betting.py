@@ -27,9 +27,11 @@ def show_betting():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 22px;">
-        Each year, as the Eurovision Song Contest draws near, fans across Europe - and beyond - start placing their bets. Eurovision has become more than just a musical competition;
+        Each year, as the Eurovision Song Contest draws near, fans across Europe - and beyond - start placing their bets. 
+        Eurovision has become more than just a musical competition;
         it's a spectacle of culture, performance and passionate predictions. Betting companies have capitalized on this excitement, offering odds on potential winners, finalists,
-        and even who might come in last. While some companies consistently cover the event, others dip in and out, and not all ofer bets on every country or every year.
+        and even who might come in last. We have betting organisations' data for the years 2016 - 2023. 
+        While some companies consistently cover the event, others dip in and out, and not all ofer bets on every country or every year. 
         </p>
         </div>""", unsafe_allow_html=True
     )
@@ -74,7 +76,11 @@ def show_betting():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 22px;">
-        To dive deeper, we've used <strong>power regression models</strong> to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
+        To dive deeper, we've used <strong>power regression models</strong> to analyze the relationship between betting odds and final placements—helping us understand 
+        just how predictive (or not) the odds really were. <strong>Power Regression</strong> is a type of nonlinear regression used when the relationship between two variables
+        follows: <strong>y = a.x^b</strong> </p>
+        This model is useful when the effect of x on y increases or decreases non-linearly i.e., <strong>how strongly betting odds predict outcomes but in a non-linear way.</strong></p>
+        Maybe a small improvement in odds (e.g., going from 4:1 to 2:1) massively increases the chances of winning - and this wouldn't be captured well in a linear model.
         </p>
         </div>""", unsafe_allow_html=True
     )
