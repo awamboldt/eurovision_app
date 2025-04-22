@@ -28,8 +28,7 @@ def show_betting():
         """
         <div style="text-align: justify; font-size: 22px;">
         Each year, as the Eurovision Song Contest draws near, fans across Europe - and beyond - start placing their bets. 
-        Eurovision has become more than just a musical competition;
-        it's a spectacle of culture, performance and passionate predictions. Betting companies have capitalized on this excitement, offering odds on potential winners, finalists,
+        Betting companies have capitalized on this excitement, offering odds on potential winners, finalists,
         and even who might come in last. We have betting organisations' data for the years 2016 - 2023. 
         While some companies consistently cover the event, others dip in and out, and not all ofer bets on every country or every year. 
         </p>
@@ -80,7 +79,11 @@ def show_betting():
         just how predictive (or not) the odds really were. <strong>Power Regression</strong> is a type of nonlinear regression used when the relationship between two variables
         follows: <strong>y = a.x^b</strong> </p>
         This model is useful when the effect of x on y increases or decreases non-linearly i.e., <strong>how strongly betting odds predict outcomes but in a non-linear way.</strong></p>
-        Maybe a small improvement in odds (e.g., going from 4:1 to 2:1) massively increases the chances of winning - and this wouldn't be captured well in a linear model.
+        Here, the curve flattens out for higher odds (more underdog entries), showing that beyond a point, odds lose predictive power 
+        (i.e., a song with odds of 300 doesn’t perform much worse than one with 400 — both are long shots).</p>
+        <strong>R-squared = 0.717 means ~71.7% of the variation in final placements is explained by the betting odds using this power regression model.</strong> 
+        That’s a very strong relationship — especially in social/cultural data like Eurovision, which has many unpredictable elements (public taste, juries, politics, performance quality).
+        A p-value of < 0.0001 indicates the model’s fit is statistically significant — the probability that this result is due to random chance is less than 0.01%.
         </p>
         </div>""", unsafe_allow_html=True
     )
