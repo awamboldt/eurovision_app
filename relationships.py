@@ -67,6 +67,11 @@ def show_relationships():
         You can also invert an individual country’s mean voting ratios to see which countries are more (or less) popular with other countries, 
         or what we call a popularity ratio. 
         France during this same time period, for example, has its highest popularity ratios from Monaco, Andorra, and Armenia.
+        </p>
+        In summary: </p>
+        1) Calculate the percentage of points awarded out of the amount possible awardable points by Country 1 to Country 2. </p>
+        2) Calculate the mean of that ratio for all years Country 1 and Country 2 participated to see which countries Country 1 is most likely to vote for. </p>
+        3) Compare countries' popularity by seeing which ratios are higher/lower for Country 2 (by Country 1, 3, 4, etc). </p>
         </div>""", unsafe_allow_html=True
     )
 
