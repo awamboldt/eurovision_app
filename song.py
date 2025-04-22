@@ -33,6 +33,7 @@ def show_song():
         It turns out that some qualities of songs do influence their chances for success in Eurovision, 
         sadly by playing it safe. 
         Using the visualization below, 
+        which utilizes song data from 2009-2023, 
         explore how winning, top 10, and not-top 10 songs vary across different musical variables. 
         Notably, check out how a songs' data distribution for beats per minute, 
         backing singers (i.e., how many people on stage are performing backup vocals), 
