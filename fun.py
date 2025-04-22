@@ -283,7 +283,8 @@ def show_fun():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 22px;">
-        And because it's a competition, we know you want to check on your darling. Here you can see when a country last won (if it did).
+        And because it's a competition, we know you want to check on your darling. Here you can see when a country last won. 
+        Assuming that it did win.
         </div>""", unsafe_allow_html=True
     )
 
