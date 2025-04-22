@@ -179,7 +179,7 @@ def show_fun():
     with open(path_to_html,'r') as f: 
         html_data = f.read()
 
-    st.components.v1.html(html_data, scrolling=True, height=500, width = 1000)
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1000)
 
     # winning by year title
     st.markdown(
