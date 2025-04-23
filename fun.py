@@ -211,7 +211,36 @@ def show_fun():
 
     st.components.v1.html(html_data, scrolling=True, height=500, width = 1000)
 
- # gender and lgbtqia+ title
+
+# Gender trend across subresions
+    st.markdown(
+        """
+        <h1 style="text-align: center; font-size: 26px;">
+        Spotlight on Gender: Who Takes the Stage Where?
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
+        </p>
+        """, unsafe_allow_html=True
+    )
+ # text about gender trends across subregions
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 22px;">
+        Here you will find 7 subregions that we have created. Why? To see who's sending the boys, the girls, or a diplomatic mix - 
+        because nothing says unity like gender trends in a glitter-fueled song contest!
+        </div>""", unsafe_allow_html=True
+    )
+
+# the line graph Here
+
+    path_to_html = "./htmls/gender_trends_subregions.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
+
+# gender and lgbtqia+ title
     st.markdown(
         """
         <h1 style="text-align: center; font-size: 26px;">
@@ -235,34 +264,6 @@ def show_fun():
 #first_year Here
 
     path_to_html = "./htmls/gender_dash_html.html" 
-
-    with open(path_to_html,'r') as f: 
-        html_data = f.read()
-
-    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
-
- # Gender trend across subresions
-    st.markdown(
-        """
-        <h1 style="text-align: center; font-size: 26px;">
-        Spotlight on Gender: Who Takes the Stage Where?
-        </h1>
-        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
-        </p>
-        """, unsafe_allow_html=True
-    )
- # text about gender trends across subregions
-    st.markdown(
-        """
-        <div style="text-align: justify; font-size: 22px;">
-        Here you will find 7 subregions that we have created. Why? To see who's sending the boys, the girls, or a diplomatic mix - 
-        because nothing says unity like gender trends in a glitter-fueled song contest!
-        </div>""", unsafe_allow_html=True
-    )
-
-# the line graph Here
-
-    path_to_html = "./htmls/gender_trends_subregions.html" 
 
     with open(path_to_html,'r') as f: 
         html_data = f.read()
