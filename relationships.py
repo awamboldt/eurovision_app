@@ -71,7 +71,8 @@ def show_relationships():
         In summary: </p>
         1) Calculate the percentage of points awarded out of the amount possible awardable points by Country 1 to Country 2. </p>
         2) Calculate the mean of that ratio for all years Country 1 and Country 2 participated to see which countries Country 1 is most likely to vote for. </p>
-        3) Compare countries' popularity by seeing which ratios are higher/lower for Country 2 (by Country 1, 3, 4, etc). </p>
+        3) Calculate the mean of that ratio for all countries and Country 2 to find out how likely an average country in an average year is to vote for Country 2. </p>
+        4) Compare countries' popularity by seeing which ratios are higher/lower for Country 2 (by Country 1, 3, 4, etc). </p>
         </div>""", unsafe_allow_html=True
     )
 
