@@ -68,7 +68,7 @@ def show_relationships():
         or what we call a popularity ratio. 
         France during this same time period, for example, has its highest popularity ratios from Monaco, Andorra, and Armenia.
         </p>
-        In summary: </p>
+        <strong>In summary:</strong> </p>
         1) Calculate the percentage of points awarded out of the amount possible awardable points by Country 1 to Country 2. </p>
         2) Calculate the mean of that ratio for all years Country 1 and Country 2 participated to see which countries Country 1 is most likely to vote for. </p>
         3) Calculate the mean of that ratio for all countries and Country 2 to find out how likely an average country in an average year is to vote for Country 2. </p>
